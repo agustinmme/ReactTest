@@ -8,8 +8,8 @@ import React, { Fragment,useState } from 'react'
     return (
         <Fragment>
                     <h2>cantidad de contador:{num}</h2>
-                    <button onClick={Aumentar}className="btn btn-primary me-3">Aumentar</button>
-                    <button onClick={Reducir} className="btn btn-secondary me-3">Reducir</button>
+                    <button onClick={Aumentar}className="btn btn-danger me-3">Aumentar</button>
+                    <button onClick={Reducir} className="btn btn-primary me-3">Reducir</button>
         </Fragment>
     )
 }
